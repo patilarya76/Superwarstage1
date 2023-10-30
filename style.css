@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    margin-left : 80px;
+    font-size : 18px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 220px;
+    margin-top: 70px;
+}
+
+/* #teamA{
+    grid-column-start: 1; */
+    /* margin-left: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 560px;
+} */
+
+.try{
+    display: flex;
+    justify-content: space-evenly;
+    width: 560px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+.trying{
+     margin-left: 100px; 
+     display: flex;
+    justify-content: space-evenly;
+    width: 560px;
+    text-align: center;
+}
+.tried{
+     display: flex;
+    justify-content: space-evenly;
+    width: 560px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+#score{
+    grid-column-start: 4;
+    text-align: center;
+    margin-left: 200px;
+    
+    
+}
+
+#teamB{
+    grid-column-start: 5;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    text-align: center;
+}
+/* .you{
+    grid-column-start: 5;
+    display: flex;
+    justify-content: space-evenly;
+ }
+    */
+.footer{
+     display: flex;
+     justify-content: center;
+}
+
+.you ,.am , .done{
+    display: grid;
+    grid-template-columns: 150px;
+    /* padding-bottom: 3px;
+    margin-bottom: 20px; */
+}
